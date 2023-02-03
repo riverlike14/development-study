@@ -3,7 +3,7 @@
 - Purpose: This page summarizes and shows demos of what I have studied on React.
 - Major Function: Personal React study summary.
 - Dependencies: Each topic has its own dependencies.
-- Build/deploy Instruction: None. You can just [visit here](http://my-react-project), which is almost identical to this README file.
+- Build/deploy Instruction: None. You can just [visit here](http://my-react-project.site), which is almost identical to this README file.
 
 ## Manage My Cars
 
