@@ -1,70 +1,196 @@
-# Getting Started with Create React App
+# React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+My personal study on React. You can [visit here](http://my-react-project.site) as well. The page is almost identical to this README file.
 
-## Available Scripts
+## Manage My Cars
 
-In the project directory, you can run:
+![Cars preview](https://imgur.com/70DHFAP.png)
 
-### `npm start`
+### Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- State management with redux toolkit.
+- Handles multiple slices.
+- Renders searched items.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Libraries
 
-### `npm test`
+- `@reduxjs/toolkit`
+- `react-redux`
+- `bulma`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Link
 
-### `npm run build`
+You can try in [here](http://my-react-project.site/Cars)!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Details
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+You can see more details [in this page](https://riverlike14.github.io/computer/web-development/react/Managing-My-Cars-with-Redux-Toolkit/).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Basics of Reducer
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Counter Preview](https://imgur.com/mhRo4AG.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Features
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Refactor counter component with useReducer.
+- Compare useState and useReducer.
+- Learn community convention of useReducer design pattern.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Link
 
-## Learn More
+You can try in [here](http://my-react-project.site/CustomRouter/Counter)!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Libraries
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- `immer`
 
-### Code Splitting
+### Details
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+You can see more details [in this page](https://riverlike14.github.io/computer/web-development/react/Basics-of-Reducers/).
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Search Images
 
-### Making a Progressive Web App
+![ImageSearch Preview](https://imgur.com/keWxWCl.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Features
 
-### Advanced Configuration
+- Handles HTML input tag and its value.
+- Uses Unsplash.com API with 'async' and 'await' javascript keywords.
+- Renders grid images.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Link
 
-### Deployment
+You can try in [here](http://my-react-project.site/ImageSearch)!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Libraries
 
-### `npm run build` fails to minify
+- `axios`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Details
+
+You can see more details [in this page](https://riverlike14.github.io/computer/web-development/react/Using-an-API-with-React/).
+
+
+## Modal Component
+
+![Modal Preview](https://imgur.com/TndJ5NM.png)
+
+### Features
+
+- Display modal window and show some important information.
+- Modal window overlay anything else behind it.
+- Click button or background to close the modal window.
+
+### Link
+
+You can try in [here](http://my-react-project.site/CustomRouter/Modal)!
+
+### Libraries
+
+- `tailwindcss`
+
+### Details
+
+You can see more details [in this page](https://riverlike14.github.io/computer/web-development/react/Creating-Portals-with-ReactDOM/).
+
+
+## Custom Navigation
+
+![Router Preview](https://i.imgur.com/3O86BIB.jpg)
+
+### Features
+
+- pushState method and popstate event.
+- Create custom routing component.
+- Navigation context with custom navigation hook.
+
+### Link
+
+You can try in [here](http://my-react-project.site/CustomRouter)!
+
+### Libraries
+
+- `classnames`
+- `tailwindcss`
+
+### Details
+
+You can see more details [in this page](https://riverlike14.github.io/computer/web-development/react/Customized-Navigation-in-Details/).
+
+## Dropdown
+
+![Dropdown Preview](https://imgur.com/inlDyTb.png)
+
+### Features
+
+- Design dropdown through state design process.
+- Implement controlled component.
+- Learn props naming convention of community.
+- Event capturing, event bubbling.
+- useRef hook.
+
+### Link
+
+You can try in [here](http://my-react-project.site/Components/Dropdown)!
+
+### Libraries
+
+- `tailwindcss`
+- `react-icons`
+
+### Details
+
+You can see more details [in this page](https://riverlike14.github.io/computer/web-development/react/Advanced-Event-Handlers-and-Dropdown-Component/).
+
+
+## Accordion
+
+![Accordion Preview](https://imgur.com/SXBRkK2.png)
+
+### Features
+- Organize project files.
+- Create an accordion component.
+- Handles event handler in map function.
+- Functional version of updating states.
+
+### Link
+
+You can try in [here](http://my-react-project.site/Components/Accordion)!
+
+### Libraries
+
+- `tailwindcss`
+- `react-icons`
+
+### Details
+
+You can see more details [in this page](https://riverlike14.github.io/computer/web-development/react/State-Design-Process-and-Accordion-Component/).
+
+
+## Button Components
+
+![Buttons Preview](https://i.imgur.com/CBcRwPb.png)
+
+### Features
+
+- Pass all of the props from Button component to the underlying button element.
+- Make props in Button so that user can apply different style.
+- Use TailwindCSS, prop-types, Classnames, and react-icons.
+
+### Link
+
+You can try in [here](http://my-react-project.site/Components/Button)!
+
+### Libraries
+
+- `prop-types`
+- `tailwindcss`
+- `classnames`
+- `react-icons`
+
+### Details
+
+You can see more details [in this page](https://riverlike14.github.io/computer/web-development/react/Creating-Custom-Button-Component/).
+
