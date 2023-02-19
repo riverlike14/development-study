@@ -1,7 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import LandingPage from "./LandingPage";
-import ImageSearchPage from "./ImageSearchPage";
+import PlaylistsPage from "./PlaylistsPage";
 import CarsPage from "./CarsPage";
+import ImageSearchPage from "./ImageSearchPage";
 import ButtonPage from "./ButtonPage";
 import AccordionPage from "./AccordionPage";
 import DropdownPage from "./DropdownPage";
@@ -14,8 +15,9 @@ const App = () => {
 		<BrowserRouter>
 			<Routes>
 				<Route path="/" element={<LandingPage />} />
-				<Route path="/ImageSearch" element={<ImageSearchPage />} />
+				<Route path="/Playlists" element={<PlaylistsPage />} />
 				<Route path="/Cars" element={<CarsPage />} />
+				<Route path="/ImageSearch" element={<ImageSearchPage />} />
 				<Route path="/Components/Button" element={<ButtonPage />}/>
 				<Route path="/Components/Accordion" element={<AccordionPage />}/>
 				<Route path="/Components/Dropdown" element={<DropdownPage />}/>

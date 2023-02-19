@@ -9,14 +9,12 @@ import { store } from "../store";
 
 const CarsPage = () => {
   return (
-		<Provider store={store}>
-			<div className="container">
-				<CarForm />
-				<CarSearch />
-				<CarList />
-				<CarValue />
-			</div>
-		</Provider>
+		<div className="container">
+			<CarForm />
+			<CarSearch />
+			<CarList />
+			<CarValue />
+		</div>
   );
 }
 

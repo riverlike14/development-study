@@ -1,5 +1,26 @@
 const ProjectSummary = [
 	{
+		Title: "Playlists and Redux",
+		Image: {
+			src: "https://imgur.com/TkTnE5R.png",
+			alt: "Playlists Preview"
+		},
+		Features: [
+			"Understand how redux and redux-toolkit work with react.",
+			"Manage a global state with multiple slices.",
+			"Share actions between different slices.",
+			"Compare directories based on function and feature."
+		],
+		TestLink: "/Playlists",
+		Libraries: [
+			"react-redux",
+			"@reduxjs/toolkit",
+			"bulma",
+			"@faker-js/faker"
+		],
+		DetailURL: "https://riverlike14.github.io/computer/web-development/react/React-and-Redux-Toolkit/",
+	},
+	{
 		Title: "Manage My Cars",
 		Image: {
 			src: "https://imgur.com/70DHFAP.png",

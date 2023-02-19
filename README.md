@@ -5,6 +5,32 @@
 - Dependencies: Each topic has its own dependencies.
 - Build/deploy Instruction: None. You can just [visit here](http://my-react-project.site), which is almost identical to this README file.
 
+## Playlists and Redux
+
+![Playlists preview](https://imgur.com/TkTnE5R.png)
+
+### Features
+
+- Understand how redux and redux-toolkit work with react.
+- Manage a global state with multiple slices.
+- Share actions between different slices.
+- Compare directories based on function and feature.
+
+### Libraries
+
+- `react-redux`
+- `@reduxjs/toolkit`
+- `bulma`
+- `@faker-js/faker`
+
+### Link
+
+You can try in [here](http://my-react-project.site/Playlists)!
+
+### Details
+
+You can see more details [in this page](https://riverlike14.github.io/computer/web-development/react/React-and-Redux-Toolkit/).
+
 ## Manage My Cars
 
 ![Cars preview](https://imgur.com/70DHFAP.png)
