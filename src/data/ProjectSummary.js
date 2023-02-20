@@ -1,5 +1,19 @@
 const ProjectSummary = [
 	{
+		Title: "Facebook",
+		Image: {
+			src: "https://imgur.com/ZF5eMto.png",
+			alt: "Facebook"
+		},
+		Features: [
+			"Facebook page clone coding.",
+			"The number of liked changes when clicked.",
+		],
+		TestLink: "/ReactBook",
+		Libraries: [],
+		DetailURL: null,
+	},
+	{
 		Title: "Playlists and Redux",
 		Image: {
 			src: "https://imgur.com/TkTnE5R.png",

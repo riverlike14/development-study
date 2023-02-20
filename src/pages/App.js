@@ -9,12 +9,14 @@ import DropdownPage from "./DropdownPage";
 import CustomRouterPage from "./CustomRouterPage";
 import ModalPage from "./ModalPage";
 import CounterPage from "./CounterPage";
+import ReactBookPage from "./ReactBookPage";
 
 const App = () => {
   return (
 		<BrowserRouter>
 			<Routes>
 				<Route path="/" element={<LandingPage />} />
+				<Route path="/ReactBook" element={<ReactBookPage />} />
 				<Route path="/Playlists" element={<PlaylistsPage />} />
 				<Route path="/Cars" element={<CarsPage />} />
 				<Route path="/ImageSearch" element={<ImageSearchPage />} />
